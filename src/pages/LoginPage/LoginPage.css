@@ -1,0 +1,53 @@
+#form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(250, 248, 248);
+  padding: 30px;
+  height: auto; /* Ajustado para altura automática */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#form-container img#logo {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+}
+
+#form-container h4 {
+  padding-bottom: 0px;
+}
+
+#form-container button {
+  background-color: black;
+  color: white;
+  width: 300px; 
+  height: 40px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#form-container button:hover {
+  background-color: darkgray; /* Efeito hover opcional */
+}
+
+.esqueceu {
+  text-align: center;
+  color: black;
+}
+
+.esqueceu h5 {
+  color: black;
+}
+
+.usernamefield {
+  background-color: transparent;
+  border: 1.5px solid grey; /* Combinei as propriedades de borda em uma linha */
+  border-radius: 5px;
+  color: black; /* Mudança de cinza para preto para melhor visibilidade */
+  width: 280px;
+  height: 25px; /* Ajuste da altura para garantir consistência com o botão */
+  padding: 10px;
+}
